@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./home.css">
+</head>
+<body class="home-page">
+    <header>
+        <div class="buttons">
+            <a href="application.html" class="button" id="request-items">REQUEST ITEMS</a>
+        </div>
+        <input type="text" id="search" placeholder="SEARCH">
+        <img src="./userlogo.png" alt="Logo" id="logo">
+    </header>
+    <nav>
+        <button class="button" onclick="window.location.href='inbox.html'">INBOX</button>
+        <button class="button" onclick="window.location.href='updates.html'">UPDATES</button>
+        <a href="category.html" class="button">CATEGORY</a>
+        <a href="report.html" class="button">REPORT</a>
+    </nav>
+    <main>
+        <div class="gallery">
+            <div class="image-box">
+                <img src="./img-1.jpg">
+            </div>
+            <div class="image-box">
+                <img src="./img-2.jpg">
+            </div>
+            <div class="image-box">
+                <img src="./img-3.jpg">
+            </div>
+            <div class="image-box">
+                <img src="./img-4.jpg">
+            </div>
+            <div class="image-box">
+                <img src="./img-5.jpg">
+            </div>
+            <div class="image-box">
+                <img src="./img-6.jpg">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="privacy.html">PRIVACY POLICY</a>
+        <a href="terms.html">TERMS OF SERVICE</a>
+        <form>
+        <button type="submit" class="button" id="logout" action = './index.html'>LOGOUT</button>
+    </form>
+    </footer>
+    <script src="../scripts/scripts.js"></script>
+</body>
+</html>

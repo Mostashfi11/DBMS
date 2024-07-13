@@ -1,0 +1,88 @@
+body {
+    font-family: Gunplay, sans-serif;
+    background-color: #0C1621;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #163C66;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: 2px solid #0C1621;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+legend {
+    padding: 0 10px;
+    font-size: 24px;
+}
+
+label {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+    width: 97%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #0C1621;
+    border-radius: 10px;
+    background-color: #2a4858;
+    color: white;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="file"] {
+    padding: 10px;
+    background-color: #2a4858;
+    color: white;
+    border: 2px solid #0C1621;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    font-family: Gunplay, sans-serif;
+    background-color: #2a4858;
+    border: 2px solid #0C1621;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-top: 20px;
+    align-self: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}

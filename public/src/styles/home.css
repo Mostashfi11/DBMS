@@ -1,0 +1,167 @@
+body {
+    font-family: Gunplay, sans-serif;
+    background-color: #0C1621;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #163C66;
+}
+
+#request-items {
+    font-family: Gunplay, sans-serif;
+    background-color: #0C1621;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0C1621;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#logout {
+    font-family: Gunplay, sans-serif;
+    background-color: #0C1621;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 25px;
+    position: absolute;
+    right: 60px;
+    bottom: 10px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+#logout:hover {
+    background-color: #45a049;
+}
+
+#request-items:hover {
+    background-color: #45a049;
+}
+
+#search {
+    font-family: Gunplay, sans-serif;
+    text-align: center;
+    padding: 10px 120px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+nav {
+    width: 150px;
+    background-color: #2a4858;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 80%;
+    
+    left: 0;
+    padding-top: 60px;
+    margin: 0;
+}
+
+nav .button {
+    font-family: Gunplay, sans-serif;
+    background-color: #0C1621;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 5px 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+.gallery {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    margin: 2% auto 0;
+    box-sizing: border-box;
+    border-radius: 25px;
+    position: absolute;
+    right: 60px;
+}
+
+.image-box {
+    margin: 0 1%;
+    flex-grow: 1;
+    flex-basis: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 25px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    border-radius: 25px;
+}
+
+.image-box:hover {
+    flex-basis: 50%;
+    border-radius: 25px;
+}
+
+.active {
+    flex-basis: 50%;
+    border-radius: 25px;
+}
+
+.section {
+    background-color: #2a4858;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #163C66;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}

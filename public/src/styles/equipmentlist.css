@@ -1,0 +1,23 @@
+.equipment-list {
+    background-color: #2a4858;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.equipment-list h1 {
+    margin-bottom: 20px;
+}
+
+.equipment-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.equipment-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #0C1621;
+    border-radius: 5px;
+}

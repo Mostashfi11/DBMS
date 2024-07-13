@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Equipment Issue</title>
+    <link rel="stylesheet" href="./report.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Report Equipment Issue</h1>
+        <form id="report-form">
+            <!-- Reporter Information -->
+            <fieldset>
+                <legend>Reporter Information</legend>
+                <label for="reporter-name">Name:</label>
+                <input type="text" id="reporter-name" name="reporter-name" required>
+
+                <label for="reporter-email">Email:</label>
+                <input type="email" id="reporter-email" name="reporter-email" required>
+
+                <label for="reporter-phone">Phone Number:</label>
+                <input type="text" id="reporter-phone" name="reporter-phone" required>
+            </fieldset>
+
+            <!-- Equipment Information -->
+            <fieldset>
+                <legend>Equipment Information</legend>
+                <label for="equipment-name">Equipment Name:</label>
+                <input type="text" id="equipment-name" name="equipment-name" required>
+
+                <label for="equipment-id">Equipment ID/Serial Number:</label>
+                <input type="text" id="equipment-id" name="equipment-id" required>
+
+                <label for="equipment-location">Location:</label>
+                <input type="text" id="equipment-location" name="equipment-location" required>
+            </fieldset>
+
+            <!-- Issue Details -->
+            <fieldset>
+                <legend>Issue Details</legend>
+                <label for="issue-date">Date of Issue:</label>
+                <input type="date" id="issue-date" name="issue-date" required>
+
+                <label for="issue-description">Description of the Issue:</label>
+                <textarea id="issue-description" name="issue-description" required></textarea>
+
+                <label for="severity-level">Severity Level:</label>
+                <select id="severity-level" name="severity-level" required>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                    <option value="critical">Critical</option>
+                </select>
+
+                <label for="impact-on-operations">Impact on Operations:</label>
+                <textarea id="impact-on-operations" name="impact-on-operations" required></textarea>
+            </fieldset>
+
+            <!-- Attachments -->
+            <fieldset>
+                <legend>Attachments</legend>
+                <label for="issue-attachments">Upload Images:</label>
+                <input type="file" id="issue-attachments" name="issue-attachments" multiple>
+            </fieldset>
+
+            <!-- Additional Information -->
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="steps-taken">Steps Taken:</label>
+                <textarea id="steps-taken" name="steps-taken"></textarea>
+
+                <label for="additional-comments">Comments:</label>
+                <textarea id="additional-comments" name="additional-comments"></textarea>
+            </fieldset>
+
+            <!-- Submission -->
+            <button type="submit">Submit Report</button>
+        </form>
+    </div>
+    <script src="../scripts/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+body {
+    font-family: Gunplay, sans-serif;
+    background-color: #0C1621;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #163C66;
+}
+
+#search {
+    font-family: Gunplay, sans-serif;
+    text-align: center;
+    padding: 10px 120px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+nav {
+    width: 150px;
+    background-color: #2a4858;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 80%;
+    left: 0;
+    padding-top: 60px;
+    margin: 0;
+}
+
+nav .button {
+    font-family: Gunplay, sans-serif;
+    background-color: #0C1621;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 5px 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+.main-content {
+    margin-left: 160px; /* Leave space for the sidebar */
+    padding: 20px;
+    background-color: #0C1621;
+    height: calc(100vh - 80px); /* Full height minus header */
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    background-color: #2a4858;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.message:hover {
+    background-color: #163C66;
+}
+
+.sender-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.message-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.sender-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.message-preview {
+    font-size: 14px;
+    color: #bbb;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #163C66;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#logout {
+    font-family: Gunplay, sans-serif;
+    background-color: #0C1621;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 25px;
+    position: absolute;
+    right: 60px;
+    bottom: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0C1621;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#logout:hover {
+    background-color: #45a049;
+}
+
+.button:hover {
+    background-color: #45a049;
+}

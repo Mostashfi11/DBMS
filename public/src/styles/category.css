@@ -1,0 +1,151 @@
+body {
+    font-family: Gunplay, sans-serif;
+    background-color: #0C1621;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #163C66;
+}
+
+#request-items {
+    font-family: Gunplay, sans-serif;
+    background-color: #0C1621;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0C1621;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#logout {
+    font-family: Gunplay, sans-serif;
+    background-color: #0C1621;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 25px;
+    position: absolute;
+    right: 60px;
+    bottom: 10px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+#logout:hover {
+    background-color: #45a049;
+}
+
+#request-items:hover {
+    background-color: #45a049;
+}
+
+#search {
+    font-family: Gunplay, sans-serif;
+    text-align: center;
+    padding: 10px 120px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+nav {
+    width: 150px;
+    background-color: #2a4858;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 80%;
+    
+    left: 0;
+    padding-top: 60px;
+    margin: 0;
+}
+
+nav .button {
+    font-family: Gunplay, sans-serif;
+    background-color: #0C1621;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 5px 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+.equipment-item {
+    padding: 100px;
+    background-color: #0C1621;
+    margin: 60px;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 25px;
+    position: absolute;
+    left: 220px;
+    height: 140px; /* Adjust the height based on your layout needs */
+    padding: 20px; /* Padding to give some space around content */
+}
+
+#equipment-list {
+    width: 100%; 
+    max-width: 1000px; 
+    margin-top: 2px; 
+    padding: 20px; 
+    background-color: #2a4858;
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #163C66;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}

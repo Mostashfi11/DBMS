@@ -1,0 +1,25 @@
+nav {
+    width: 150px;
+    background-color: #2a4858;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 80%;
+    left: 0;
+    padding-top: 60px;
+    margin: 0;
+}
+
+nav .button {
+    font-family: Gunplay, sans-serif;
+    background-color: #0C1621;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 5px 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}

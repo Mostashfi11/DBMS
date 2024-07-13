@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Page</title>
+    <link rel="stylesheet" href="./category.css">
+</head>
+<body class="category-page">
+    <header>
+        <div class="buttons">
+            <a href="application.html" class="button" id="request-items">REQUEST ITEMS</a>
+        </div>
+        <input type="text" id="search" placeholder="SEARCH">
+        <img src="./userlogo.png" alt="Logo" id="logo">
+    </header>
+    <nav>
+        <button class="button" onclick="window.location.href='inbox.html'">INBOX</button>
+        <button class="button" onclick="window.location.href='updates.html'">UPDATES</button>
+        <a href="report.html" class="button">REPORT</a>
+    </nav>
+    <main>
+        <h1>My Equipment</h1>
+        <div id="equipment-list">
+            <!-- Equipment list will be dynamically inserted here -->
+        </div>
+    </main>
+    <footer>
+        <a href="privacy.html">PRIVACY POLICY</a>
+        <a href="terms.html">TERMS OF SERVICE</a>
+        <button class="button" id="logout">LOGOUT</button>
+    </footer>
+    <script src="../scripts/scripts.js"></script>
+</body>
+</html>

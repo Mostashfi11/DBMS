@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./application.css">
+    <title>Equipment Request Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-section">
+            <div class="circle">
+                <img src="./logo.png" alt="Logo" id="logo">
+            </div>
+            <h1>Application Form</h1>
+            <p>Fill out the form to request items.</p>
+        </div>
+        <div class="form-section">
+            <form action="submit_request.php" method="post">
+                <label for="name">Unit Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required>
+                
+                <label for="department">Department/Division:</label>
+                <input type="text" id="department" name="department" required>
+                
+                <label for="item">Item Name:</label>
+                <input type="text" id="item" name="item" required>
+                
+                <label for="description">Item Description:</label>
+                <input type="text" id="description" name="description" required>
+                
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" required>
+                
+                <label for="purpose">Purpose of Request:</label>
+                <input type="text" id="purpose" name="purpose" required>
+                
+                <label for="brand">Preferred Brand/Model:</label>
+                <input type="text" id="brand" name="brand">
+                
+                <label for="date-needed">Date Needed By:</label>
+                <input type="date" id="date-needed" name="date_needed" required>
+                
+                <label for="duration">Duration of Use:</label>
+                <input type="text" id="duration" name="duration">
+                
+                <label for="reason">Reason for Request:</label>
+                <input type="text" id="reason" name="reason" required>
+                
+                <label for="impact">Impact if Not Provided:</label>
+                <input type="text" id="impact" name="impact">
+                
+                <label for="issuer-name">Issuer Name:</label>
+                <input type="text" id="issuer-name" name="issuer_name" required>
+                
+                <label for="issuer-email">Issuer Email:</label>
+                <input type="email" id="issuer-email" name="issuer_email" required>
+                
+                <label for="requirements">Special Requirements:</label>
+                <input type="text" id="requirements" name="requirements">
+                
+                <label for="request-date">Date of Request:</label>
+                <input type="date" id="request-date" name="request_date" required>
+                
+                <label for="attachments">Attachments:</label>
+                <input type="file" id="attachments" name="attachments">
+                
+                <button type="submit">Submit Request</button>
+                
+                <p>Already submitted a request? <a href="view_requests.html">View your requests</a></p>
+            </form>
+        </div>
+    </div>
+<script src="../scripts/scripts.js"></script>
+</body>
+</html>
